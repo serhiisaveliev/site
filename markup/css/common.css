@@ -1,0 +1,260 @@
+body {
+	margin: 0;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 544px;
+}
+.logo {
+	background: url(../images/logo.png) no-repeat 0px 0px;
+	display: block;
+	height: 67px;
+	width: 156px;
+	text-indent: -9999px;
+	margin: 0 0 0 14px;
+}
+.logo a {
+	display: block;
+	height: 100%;
+}
+	/*Header*/
+#header {
+	background: url(../images/image.png) no-repeat 15px -1px;
+	display: block;
+	padding: 79px 0 0;
+	margin: 0;
+}
+.box {
+	margin-left: 30px;
+	margin-bottom: 74px;
+}
+#header .note {
+	display: block;
+	font: 15px/15px Arial, Helvetica, sans-serif;
+	color: #b5b4b4;
+}
+h1 {
+	font: 24px/24px Arial, Helvetica, sans-serif;
+	color: #949494;
+	margin: 0;
+}
+#nav {
+	list-style: none;
+	margin: 0 0 2px 0px;
+	padding: 0 75px 0 0;
+	text-align: right;
+	font: bold 11px/15px Tahoma, Futura, sans-serif;
+	border-bottom: 2px solid #72aa21;
+}
+#nav li {
+	display: inline-block;
+	margin-left: 1px;
+}
+#nav a {
+	display: block;
+	color: #ffffff;
+	background: #72aa21;
+	text-decoration: none;
+	border-radius: 6px 6px 0 0;
+	padding: 2px 12px;
+}
+#main {
+	margin: 0 0 6px;
+	background: url(../images/decoration.png) repeat-x;
+	padding-top: 16px;
+}
+#twocolumn {
+	overflow: hidden;
+}
+	/*sidebar*/
+#sidebar {
+	margin: 0 0 0 11px;
+	width: 188px;
+	border-right: 1px solid #dcdcdc;
+}
+h2 {
+	font: 30px/34px Arial, Helvetica, sans-serif;
+	color: #ffba00;
+	margin: 0 0 2px;
+}
+.img-frame {
+	border: 3px solid #74b126;
+	border-radius: 9px;
+	position: relative;
+	padding: 2px;
+}
+#sidebar .img-frame {
+	margin: 0 0 17px 0;
+	width: 150px;
+	height: 54px;
+}
+#sidebar h3 {
+	margin: 0 0 4px;
+}
+#sidebar p {
+	margin: 0 0 2px;
+	font: 10px/12px Tahoma, Futura, sans-serif;
+	color: #888888;
+}
+.more, .submit {
+	margin: 0;
+	font: 18px/22px Arial, Helvetica, sans-serif;
+	color: #ffba00;
+	text-decoration: none;
+}
+#sidebar p colspan {
+	color: #72aa21;
+}
+	/*content*/
+#content {
+	margin: 0;
+	position: relative;
+	float: right;
+	width: 323px;
+	overflow: hidden;
+	padding-left: 21px;
+	border-left: 1px solid #dcdcdc;
+}
+#content .img-frame {
+	width: 103px;
+	height: 54px;
+	float: left;
+	margin-right: 14px;
+}
+h3, label {
+	font: bold 10px/14px Tahoma, Futura, sans-serif;
+	color: #72aa21;
+	position: relative;
+}
+#content h3 {
+	margin: 0 0 7px;
+}
+#content p {
+	color: #888888;
+	font: 10px/12px Tahoma,Futura,sans-serif;
+	margin: 0 0 23px;
+}
+.aenean {
+	color: #ffba00;
+}
+.list {
+	list-style: none;
+	font: bold 10px/14px Tahoma, Futura, sans-serif;
+	color: #72aa21;
+}
+.list li {
+	display: block;
+	margin: 0 0 2px;
+}
+.list a {
+	border-radius: 6px;
+	background: #ffba00;
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	color: #72aa21;
+	padding-left: 14px;
+}
+.list span {
+	background: #ebebeb;
+	display: block;
+	padding: 1px 0 1px 10px;
+}
+#content .list {
+	margin: 0 0 5px;
+	padding: 0 28px 0 0;
+}
+#footer {
+	display: block;
+	margin: 0;
+	background: url(../images/foot-pattern.png) repeat-x;
+	padding-top: 13px;
+}
+#footer ul {
+	list-style: none;
+	text-align: right;
+	font: 10px/14px Tahoma, Futura, sans-serif;
+	color: #b2b2b2;
+	margin: 0;
+	padding: 0 24px 0 0;
+}
+/*PORTFOLIO*/
+.project{
+	overflow: hidden;
+}
+.project #sidebar {
+	margin: 0 0 0 11px;
+	width: 126px;
+}
+#sidebar .list {
+	margin: 0 0 9px;
+	padding: 4px 25px 0 0;
+}
+#sidebar .list a {
+	border-radius: 6px 0 0 6px;
+}
+.project #content {
+	margin: 0;
+	width: 383px;
+	padding-left: 23px;
+}
+.project #content .img-frame {
+	margin: 35px 12px 0 0px;
+	width: 201px;
+	height: 134px;
+	float: left;
+}
+.project #content h3 {
+	margin: 37px 0 7px;
+}
+.project #content p {
+	color: #888888;
+	font: 10px/12px Tahoma,Futura,sans-serif;
+	margin: 0 0 11px;
+	padding-right: 11px;
+}
+/*CONTACTS*/
+.contacts {
+	overflow: hidden;
+}
+.contacts ul {
+	list-style: none;
+	color: #888888;
+	font: 10px/12px Tahoma,Futura,sans-serif;
+	position: relative;
+	margin: 10px 0 0;
+	padding-left: 0;
+}
+form {
+	margin: 0;
+	overflow: hidden;
+}
+input, textarea {
+	border: none;
+	padding: 0;
+	display: block;
+	background: #ebebeb;
+	border-radius: 5px;
+	width: 135px;
+	margin: 0;
+}
+.message {
+	float: right;
+}
+#textmessage {
+	width: 170px;
+	position: relative;
+	height: 120px;
+	margin: 0;
+}
+.submit {
+	background: none;
+	width: 60px;
+	float: right;
+	font: 18px/18px Arial,Helvetica,sans-serif;
+}
+.submit:hover {
+	background: #ebebeb;
+}
+
+
